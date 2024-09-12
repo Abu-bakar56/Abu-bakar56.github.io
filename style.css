@@ -726,6 +726,11 @@ font-size: 1rem;
       
     
     }
+    .education-content .content p{
+        font-size: 1.1rem;
+    }
+    
+    
 }
 
 @media(max-width:991px){
@@ -761,6 +766,10 @@ font-size: 1rem;
 .contact{
     min-height: auto;
 }
+.education-content .content p{
+    font-size: 8.3px;
+}
+
 
 
 }
@@ -900,6 +909,9 @@ font-size: 1rem;
     margin-right: 0.5rem;
   
 
+}
+.education-content .content p{
+    font-size: 0.87rem;
 }
 
  }
