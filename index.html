@@ -369,27 +369,26 @@
         </div>
     </section>
 
+
     <section class="contact" id="contact">
         <h2 class="heading">
-            Contact <span>
-                Me!
-            </span>
+            Contact <span>Me!</span>
         </h2>
-        <form action="#">
+        
+        <form id="contactForm" >
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" id="fullName" name="name" placeholder="Full Name">
+                <input type="email" id="email" name="email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" id="mobile" name="mobile" placeholder="Mobile Number">
+                <input type="text" id="subject" name="subject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
-
-
+    
     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2023 by AbuBakar Shahzad | All Rights Reserved
@@ -400,9 +399,12 @@
 
         </div>
     </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
    
 
 </body>

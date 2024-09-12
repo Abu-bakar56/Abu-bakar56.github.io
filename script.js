@@ -65,3 +65,52 @@ const typed = new Typed ('.multiple-text',{
 
 
 
+const form = document.querySelector('form');
+
+function sendEmail() {
+    const fullName = document.getElementById('fullName').value;
+    const email = document.getElementById('email').value;
+    const mobile = document.getElementById('mobile').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    // Check if all fields are filled
+    if (!fullName || !email || !mobile || !subject || !message) {
+        Swal.fire({
+            title: "Error!",
+            text: "Please fill all the fields.",
+            icon: "error"
+        });
+        return;
+    }
+
+    Email.send({
+        SecureToken: "fc2d19e7-55af-4af1-82ee-859ae1e49cea",
+        To: 'abubakarshahzad9900@gmail.com',
+        From: 'abubakarshahzad9900@gmail.com',
+        Subject: subject,
+        Body: `Name: ${fullName}<br>Email: ${email}<br>Mobile: ${mobile}<br>Message: ${message}`
+    }).then(
+        (response) => {
+            if (response === "OK") {
+                Swal.fire({
+                    title: "Success!",
+                    text: "Message sent successfully!",
+                    icon: "success"
+                });
+            } else {
+                Swal.fire({
+                    title: "Error!",
+                    text: "Message could not be sent.",
+                    icon: "error"
+                });
+            }
+        }
+    );
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    sendEmail();
+    form.reset();
+});
