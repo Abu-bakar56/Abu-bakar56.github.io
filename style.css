@@ -983,6 +983,9 @@ font-size: 1rem;
       
     
     }
+    #s2{
+        margin-top: 30px;
+       }
     
  }
  @media(max-width:450px){
@@ -1036,6 +1039,9 @@ font-size: 1rem;
         background: var(--text-color);
         border-radius: 50%;
     }
+   #s2{
+    margin-top: 30px;
+   }
     
 
     
