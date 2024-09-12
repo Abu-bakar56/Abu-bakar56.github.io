@@ -667,15 +667,25 @@ font-size: 1rem;
     border-bottom:  .1rem solid rgba(0,0,0.2);
     
 }
-@media(max-width:1390px){
-    .header{
-        padding: 2rem 5%;
+@media(max-width:1380px){
+    .portfolio-layer h3 {
+        font-size: 0.8rem;
     }
-    .education-content .content h1{
-        font-size: 1.2rem;
+    
+    .portfolio-layer p {
+        font-size: 0.6rem;
+        margin: .3rem 0 1rem;
     }
-    .education-content .content p{
-        font-size: 0.7rem;
+}
+
+@media(max-width:1310px){
+    .portfolio-layer h3 {
+        font-size: 0.85rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 0.65rem;
+        margin: .3rem 0 1rem;
     }
 }
 
@@ -686,6 +696,14 @@ font-size: 1rem;
     }
     .education-content .content h1{
         font-size: 1rem;
+    }
+    .portfolio-layer h3 {
+        font-size: 1rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 0.75rem;
+        margin: .3rem 0 1rem;
     }
    
 }
@@ -699,11 +717,11 @@ font-size: 1rem;
         font-size:55%;
     }
     .portfolio-layer h3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .portfolio-layer p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: .3rem 0 1rem;
     }
     
@@ -735,10 +753,10 @@ font-size: 1rem;
     
     }
     .education-content .content p{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .education-content .content h1{
-        font-size: 2.1rem;
+        font-size: 1.2rem;
     }
     
     
@@ -779,14 +797,47 @@ font-size: 1rem;
     min-height: auto;
 }
 .education-content .content p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .education-content .content h1{
-    font-size: 2.4rem;
+    font-size: 1.2rem;
 }
 
 
+}
+@media(max-width:870px){
+    .education-content .content p{
+        font-size: 1rem;
+    }
+    .education-content .content h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width:830px){
+    .education-content .content p{
+        font-size: 1rem;
+    }
+    .education-content .content h1{
+        font-size: 1.8rem;
+    }
+}
 
+@media(max-width:810px){
+    .education-content .content p{
+        font-size: 1rem;
+    }
+    .education-content .content h1{
+        font-size: 1.9rem;
+    }
+}
+
+@media(max-width:785px){
+    .education-content .content p{
+        font-size: 1rem;
+    }
+    .education-content .content h1{
+        font-size: 1.8rem;
+    }
 }
 
 
@@ -926,14 +977,49 @@ font-size: 1rem;
 
 }
 .education-content .content p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .education-content .content h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
  }
 
+
+ @media(max-width:755px){
+    .education-content .content p{
+        font-size: 1rem;
+    }
+    .education-content .content h1{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width:725px){
+    .education-content .content p{
+        font-size: 0.9rem;
+    }
+    .education-content .content h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width:685px){
+    .education-content .content p{
+        font-size: 0.9rem;
+    }
+    .education-content .content h1{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:620px){
+    .education-content .content p{
+        font-size: 0.9rem;
+    }
+    .education-content .content h1{
+        font-size: 1.2rem;
+    }
+}
  @media(max-width:617px){
 
 .portfolio-container{
@@ -978,11 +1064,11 @@ font-size: 1rem;
    }
 
     .portfolio-layer h3 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     .portfolio-layer p {
-        font-size: 3rem;
+        font-size: 2rem;
         margin: .3rem 0 1rem;
     }
     
@@ -1016,6 +1102,8 @@ font-size: 1rem;
     #s2{
         margin-top: 30px;
        }
+
+   
     
  }
  @media(max-width:450px){
@@ -1093,7 +1181,7 @@ font-size: 1rem;
         margin-top: 2rem;
     }
     .portfolio-layer h3 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     .portfolio-layer p {
