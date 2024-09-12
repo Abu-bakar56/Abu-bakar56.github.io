@@ -153,6 +153,9 @@ span {
     color: var(--main-color);
 
 }
+#wrong{
+    color: white;
+}
 
 .btn {
     display: inline-block;
@@ -308,7 +311,7 @@ background: var(--second-bg-color);
 }
 
 .education-content .content p{
-    font-size: 1rem ;
+    font-size: 0.82rem ;
     padding-top: 0.5rem;
 }
 
@@ -418,7 +421,7 @@ background: var(--second-bg-color);
 
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 40%;
+    width: 60%;
 
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
@@ -440,7 +443,7 @@ background: var(--second-bg-color);
 
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
-    width: 40%;
+    width: 50%;
 
 }
 
@@ -559,8 +562,8 @@ background: var(--second-bg-color);
 
 }
 
-.portfolio-layer h4 {
-    font-size: 2rem;
+.portfolio-layer h3 {
+    font-size: 1.2rem;
 }
 
 .portfolio-layer p {
@@ -687,7 +690,7 @@ font-size: 1rem;
     html{
         font-size:55%;
     }
-    .portfolio-layer h4 {
+    .portfolio-layer h3 {
         font-size: 2rem;
     }
     
@@ -862,7 +865,7 @@ font-size: 1rem;
     margin-bottom: 3rem;
 }
 
-.portfolio-layer h4 {
+.portfolio-layer h3 {
     font-size: 2rem;
 }
 
@@ -944,7 +947,7 @@ font-size: 1rem;
     display: block;
    }
 
-    .portfolio-layer h4 {
+    .portfolio-layer h3 {
         font-size: 4rem;
     }
     
@@ -1015,6 +1018,26 @@ font-size: 1rem;
       
     
     }
+    .portfolio-layer h3 {
+        font-size: 2rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 1.5rem;
+        margin: .3rem 0 1rem;
+    }
+    
+    .portfolio-layer a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        background: var(--text-color);
+        border-radius: 50%;
+    }
+    
+
     
  }
  @media(max-width:365px){
@@ -1033,8 +1056,8 @@ font-size: 1rem;
         text-align: center;
         margin-top: 2rem;
     }
-    .portfolio-layer h4 {
-        font-size: 4rem;
+    .portfolio-layer h3 {
+        font-size: 2rem;
     }
     
     .portfolio-layer p {
