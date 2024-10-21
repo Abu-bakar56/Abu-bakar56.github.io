@@ -667,15 +667,6 @@ font-size: 1rem;
     border-bottom:  .1rem solid rgba(0,0,0.2);
     
 }
-@media(max-width:2000px){
-    .education-content .content p{
-        font-size: 1.1rem;
-    }
-    .education-content .content h1{
-        font-size: 2.2rem;
-    }
-    
-}
 @media(max-width:1380px){
     .portfolio-layer h3 {
         font-size: 0.8rem;
@@ -697,6 +688,15 @@ font-size: 1rem;
         font-size: 0.65rem;
         margin: .3rem 0 1rem;
     }
+}
+@media(max-width:2000px){
+    .education-content .content p{
+        font-size: 1.1rem;
+    }
+    .education-content .content h1{
+        font-size: 2.2rem;
+    }
+    
 }
 
 @media(max-width:1280px){
