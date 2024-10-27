@@ -691,10 +691,30 @@ font-size: 1rem;
 }
 @media(max-width:2000px){
     .education-content .content p{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
-    .education-content .content h1{
-        font-size: 2.2rem;
+    .education-content .content h2{
+        font-size: 1.7rem;
+    }
+    
+}
+
+@media(max-width:1600px){
+    .education-content .content p{
+        font-size: 15px;
+    }
+    .education-content .content h2{
+        font-size: 29px;
+    }
+    
+}
+
+@media(max-width:1400px){
+    .education-content .content p{
+        font-size: 15px;
+    }
+    .education-content .content h2{
+        font-size: 29px;
     }
     
 }
