@@ -693,7 +693,7 @@ font-size: 1rem;
     .education-content .content p{
         font-size: 1rem;
     }
-    .education-content .content h2{
+    .education-content .content h1{
         font-size: 1.7rem;
     }
     
@@ -703,7 +703,7 @@ font-size: 1rem;
     .education-content .content p{
         font-size: 15px;
     }
-    .education-content .content h2{
+    .education-content .content h1{
         font-size: 29px;
     }
     
@@ -711,10 +711,10 @@ font-size: 1rem;
 
 @media(max-width:1450px){
     .education-content .content p{
-        font-size: 15px;
+        font-size: 12px;
     }
-    .education-content .content h2{
-        font-size: 29px;
+    .education-content .content h1{
+        font-size: 20px;
     }
     
 }
