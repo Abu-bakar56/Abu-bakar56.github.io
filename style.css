@@ -709,6 +709,16 @@ font-size: 1rem;
     
 }
 
+@media(max-width:1550px){
+    .education-content .content p{
+        font-size: 13px;
+    }
+    .education-content .content h1{
+        font-size: 20px;
+    }
+    
+}
+
 @media(max-width:1450px){
     .education-content .content p{
         font-size: 12px;
