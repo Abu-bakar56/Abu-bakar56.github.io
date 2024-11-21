@@ -84,8 +84,8 @@ function sendEmail() {
         return;
     }
 
-    Email.send({
-        SecureToken: "fc2d19e7-55af-4af1-82ee-859ae1e49cea",
+    email.send({
+        SecureToken: "b2b6b2a3-0d0a-4821-a36f-cd430a4bb88e",
         To: 'abubakarshahzad9900@gmail.com',
         From: 'abubakarshahzad9900@gmail.com',
         Subject: subject,
