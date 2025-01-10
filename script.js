@@ -1,4 +1,4 @@
-const form = document.querySelector('form');
+const form = document.querySelector('#contactForm');
 
 function sendEmail() {
     const fullName = document.getElementById('fullName').value;
@@ -115,3 +115,99 @@ const typed = new Typed ('.multiple-text',{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/**
+ *  for project purpose 
+ */
+
+
+
+
+
+
+const button = document.querySelector('.flying-button');
+const modal = document.getElementById('orderModal');
+
+
+// Show modal on button click
+button.addEventListener('click', () => {
+    modal.style.display = 'flex';
+});
+
+const closeButton = document.querySelector('.close-button');
+
+
+// Close modal on close button click
+closeButton.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+
+// Advanced mouse-follow effect
+document.addEventListener('mousemove', (e) => {
+    const { clientX: mouseX, clientY: mouseY } = e;
+
+    const centerX = window.innerWidth / 80;
+    const centerY = window.innerHeight / 80;
+
+
+
+    const multiplier = 2; // Increase to amplify movement further
+const offsetX = ((mouseX - centerX) / 5) * multiplier;
+const offsetY = ((mouseY - centerY) / 5) * multiplier;
+
+    
+    button.style.transform = `translate(-50%, -50%) translate(${offsetX}px, ${offsetY}px)`;
+});;
+
+
+const form1 = document.querySelector('#diff');
+
+function sendEmail1() {
+    const fullName = document.getElementById('orname').value;
+    const email = document.getElementById('oremail').value;
+    const project = document.getElementById('orproject').value;
+    const area = document.getElementById('orarea').value;
+    const price = document.getElementById('orprice').value;
+
+
+   
+    Email.send({
+        SecureToken: "b2b6b2a3-0d0a-4821-a36f-cd430a4bb88e",
+        To: 'abubakarshahzad9900@gmail.com',
+        From: 'abubakarshahzad9900@gmail.com',
+        Subject: subject,
+        Body: `Name: ${fullName}<br>Email: ${email}<br>Project: ${project}<br>Project Description: ${area}<br>Price Offer: ${price}`
+    }).then(
+        (response) => {
+            if (response === "OK") {
+                Swal.fire({
+                    title: "Success!",
+                    text: "Message sent successfully!",
+                    icon: "success"
+                });
+            } else {
+                Swal.fire({
+                    title: "Error!",
+                    text: "Message could not be sent.",
+                    icon: "error"
+                });
+            }
+        }
+    );
+}
+
+form1.addEventListener("submit", (e) => {
+    e.preventDefault();
+    sendEmail1();
+    form1.reset();
+});
