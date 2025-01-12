@@ -322,6 +322,10 @@ background: var(--second-bg-color);
     background: var(--second-bg-color);
 }
 
+.section{
+    background: var(--second-bg-color);
+}
+
 
 
 .skills .skills-row{
@@ -509,10 +513,9 @@ background: var(--second-bg-color);
 
 
 
-.portfolio {
+.Portfolio{
     background: var(--second-bg-color);
 }
-
 .portfolio h2 {
     margin-bottom: 4rem;
 }
