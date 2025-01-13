@@ -373,7 +373,9 @@ background: var(--second-bg-color);
     top: 0;
     left: 0;
     width: 0;
-background: var(--second-bg-color);
+/* background: var(--second-bg-color); */
+background-color: #1f242d;
+
     height: 100%;
     z-index: -1;
     transition: 0.5s;
